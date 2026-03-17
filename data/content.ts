@@ -3,6 +3,7 @@ export interface Project {
   title: string;
   description: string;
   techStack: string[];
+  image?: string;
   liveUrl?: string;
   githubUrl?: string;
   mediumUrl?: string;
@@ -23,6 +24,7 @@ export const projects: Project[] = [
   {
     id: "1",
     title: "AI Document Search",
+    image: "/images/aidocs.png",
     description:
       "End-to-end RAG platform for document Q&A. Fully Dockerized with FastAPI, PostgreSQL, and React — deployed on AWS EC2 with a GitHub Actions CI/CD pipeline and HTTPS via Let's Encrypt. Reduced infrastructure cost by 60% compared to v1.",
     techStack: [
@@ -62,6 +64,7 @@ export const projects: Project[] = [
   {
     id: "3",
     title: "Seymen Real Estate",
+    image: "/images/seymenrealestate.png",
     description:
       "Client project. Full-stack real estate platform built for a live business. Implemented technical SEO from the ground up — meta tags, structured data, and performance optimizations. Currently managing Google Ads campaigns for the client.",
     techStack: ["React", "TypeScript", "PHP", "MySQL"],
