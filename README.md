@@ -39,7 +39,7 @@ All personal content lives in `data/content.ts` — projects, articles, organiza
 
 ## AWS Infrastructure Setup
 
-The infrastructure is manually provisioned (Terraform setup planned). Below are the required AWS services:
+Infrastructure is fully managed with Terraform. See [portfolio-infrastructure](https://github.com/hasankurtt/portfolio-infrastructure) for the complete IaC setup.
 
 ### 1. S3 Bucket
 
